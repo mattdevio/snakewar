@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake War</title>
+	<link href='https://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container">
+	<header>
+		<h1>Snake War</h1>
+		<p class="dir">Use WASD to move</p>
+		<p id="dbm">Designed By Matt Greenberg</p>
+		<p id="p1"></p>
+		<p id="p2"></p>
+	</header>
+	<canvas id="canvas" width="1000px" height="700px"></canvas>
+	<div class="overlay">
+		<form method="POST" id="nameform" autocomplete="off">
+			<label for="nickname">nickname</label>
+			<input type="text" id="nickname" name="nickname">
+			<input type="submit" value="start"></input>
+		</form>
+		<p id="directions">Eat fruit to get BIG.<br>Don't run into your own body and avoid the enemy snake.</p>
+	</div><!-- end .overlay -->
+	<div class="matchme">
+		<h3>Looking For Match</h3>
+	</div><!-- end .matchme -->
+	<div id="countdown">
+		3
+	</div><!-- end .countdown -->
+	<div id="endscreen">
+		
+	</div><!-- end #endscreen -->
+</div><!-- end .container -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
