@@ -1,7 +1,7 @@
 #Snake War - PvP Snake Game
 
-![Start Screen](https://raw.githubusercontent.com/magreenberg/snakewar/img/slide1.png)
-![Game In Progress](https://raw.githubusercontent.com/magreenberg/snakewar/img/slide2.png)
+![Start Screen](https://raw.githubusercontent.com/mattgreenberg/snakewar/master/img/slide1.png)
+![Game In Progress](https://raw.githubusercontent.com/mattgreenberg/snakewar/master/img/slide2.png)
 
 ## Directions
 Your basic snake game, only PvP. The stage wraps around. You die by running into the other snake or your own body.
